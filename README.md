@@ -1,3 +1,11 @@
+# Kullanım
+
+Not: Bu kodu çalıştırmadan önce cihazınızda Python yüklü olmalıdır
+
+```
+python bellman-ford.py
+```
+
 # Bellman-Ford
 
 Bu algoritmanın amacı, bir şekil (graph) üzerindeki, bir kaynaktan (source) bir hedefe(target veya sink) giden en kısa yolu bulmaktır. Algoritma ağırlıklı şekiller (weighted graph) üzerinde çalışır ve bir anlamda Dijkstra algoritmasının iyileştirilmişi olarak düşünülebilir.
