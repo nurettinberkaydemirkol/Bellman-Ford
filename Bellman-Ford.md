@@ -1,4 +1,11 @@
 # Bellman-Ford
+
+Bu algoritmanın amacı, bir şekil (graph) üzerindeki, bir kaynaktan (source) bir hedefe(target veya sink) giden en kısa yolu bulmaktır. Algoritma ağırlıklı şekiller (weighted graph) üzerinde çalışır ve bir anlamda Dijkstra algoritmasının iyileştirilmişi olarak düşünülebilir.
+
+Algoritma aslında Dijkstra algoritmasından daha kötü bir performansa sahiptir ancak graftaki ağırlıkların eksi olması durumunda Dijkstra’nın tersine başarılı çalışır.
+
+Algoritma Dijkstra algoritmasında olduğu gibi en küçük değere sahip olan kenardan gitmek yerine bütün graf üzerindeki kenarları test eder. Bu sayede aç gözlü yaklaşımının (greedy approach) handikabına düşmez ve her düğüme sadece bir kere bakarak en kısa yolu bulmuş olur.
+
 Bellman Ford algoritması, en kısa yol problemi için kullanılan bir algoritmadır. Ağırlıklı yönlendirilmiş bir graf oluşturarak kendisine en kısa olan yolu hesaplar. 
 
 Algoritmanın ortalama çalışma zamanı:
