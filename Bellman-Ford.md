@@ -11,11 +11,15 @@ En iyi durumda ağ tamamen düzensiz olduğu ve en kısa yolun kaynak düğümde
 En iyi durumda çalışma zamanı:
 ### O(E) 
 
+
+
 ## ORTALAMA DURUM
 Ortalama durumda, algoritmanın çalışma zamanı O(EV) 'dir. Bu, ağın düzenlilik derecesine ve içerdiği negatif ağırlık sayısına bağlıdır.
 
 Ortalama durumda çalışma zamanı:
 ### O(EV)
+
+
 
 ## EN KÖTÜ DURUM
 En kötü durumda, graf negatif ağırlıklar içerdiği için algoritma tüm kenarları en az bir kez kontrol etmelidir. 
